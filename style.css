@@ -1,0 +1,42 @@
+:root{__branco_principal:#FFFFFF:
+__cinza_secundario:#COCOCO;
+__botao_azul:#167bf7;
+__cor_de_fundo:#00030c;
+__fonte_principal:'inter';}
+body{background-color: var(#00030c);
+color: var(#FFFFFF);
+font-family: var(#bd6600);
+font-size: 16px
+font weigh 400%;}
+
+*{margin: 0;
+padding: 0;}
+
+principal
+ { background-image: url("img/background.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.container
+{height: 100vh;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+.container__botao{
+  background-color: var(#167bf7);
+border-radius: 5px;
+padding: 1em;
+color: var(#FFFFFF);
+display: block;
+text-decoration: none;}
+.botao_secundario{
+  background-color: transparent;
+border: 2px solid var(#FFFFFF);}
+.container__aviso{
+  font-size: 12px;
+  color: var(#COCOCO);
+}
+.container__titulo{
+  font-size: 28px;
+  font-weight: 700;
+}
